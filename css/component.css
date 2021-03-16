@@ -208,7 +208,7 @@ button.trigger span::before {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    grid-gap: 1.5vw;
+    grid-gap: 20px;
 }
 
 .card {
@@ -240,7 +240,7 @@ footer.right{
   
   .item {
 	width: 33%;
-	height: 200px;
+	height: 240px;
 	margin-bottom: 5%;
 	min-width: 350px;
   }
@@ -449,10 +449,6 @@ padding: 20px;
 @media screen and (max-width: 27em) {
 	.title, .content {
 		font-size: 30%;
-	}
-
-	textarea#input_1_9 {
-		height: 200px!important;
 	}
 
 	button.trigger::before,

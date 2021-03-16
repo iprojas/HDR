@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,900);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+body {
+	background: #000;
+	color: #fff;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.5;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+
+	background-image: url("/HDR/img/bg4.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* To Navigation Style */
+.hdr-top {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.6em;
+	padding: 0 32px;
+	letter-spacing: 1px;
+	z-index: 10000;
+}
+
+.hdr-top a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transform: translateY(20px);
+	transform: translateY(20px);
+}
+
+.hdr-top span.right {
+	float: right;
+}
+
+.hdr-top span.right a {
+	display: block;
+	float: left;
+}
+
+a.divider {
+    padding: 0 10px;
+    border-right: 1px solid #bdbdbd;
+}
+/* 
+.hdr-icon:before {
+	
+} */
+
+.hdr-icon-drop:before {
+	content: "\e001";
+}
+
+.hdr-icon-prev:before {
+	content: "\e004";
+}
+
+.hdr-demos {
+	padding: 0 0 1em;
+	position: relative;
+}
+
+.hdr-demos a {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	letter-spacing: 1px;
+	padding: 0.3em 0;
+	display: inline-block;
+	opacity: 0.7;
+	margin: 0 0.5em;
+	white-space: nowrap;
+	color: #cf4a5c;
+}
+
+.hdr-demos a:hover,
+.hdr-demos a.current-demo {
+	opacity: 1;
+	color: #69606b;
+}
+
+.hdr-demos a.current-demo {
+	border-bottom: 3px solid #69606b;
+}
+
+.related {
+	padding: 3em 0;
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+}
+
+
+@media screen and (max-width: 40em) {
+
+	.hdr-icon span {
+		display: none;
+	}
+
+	.related {
+		font-size: 80%;
+	}
+
+}

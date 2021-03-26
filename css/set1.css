@@ -3,11 +3,12 @@
 
 .grid {
 	position: relative;
-	/* margin: 0 auto; */
-	    margin-left: 80px;
-	padding: 1em 0 4em;
+
 	list-style: none;
 	text-align: center;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Common style */
